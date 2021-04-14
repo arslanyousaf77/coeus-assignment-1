@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>My Page | My Self</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="My Page">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Arslan Yousaf">
+    <meta http-equiv="refresh" content="3000">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="libs/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="libs/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+    <script src="libs/jquery/jquery-3.6.0.min.js"></script>
+    <script src="libs/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+
+    <style>
+        .about {
+            padding: 25px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!--Navbar Start-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">My Page</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">My Self</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">My Places</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">My Experiences</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Navbar End-->
+
+    <!--Carousel Start-->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/slider/01.jpg" class="d-block w-100" height="750px" alt="faisal masjid image">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Faisal Masjid</h5>
+                    <p>The Most Beautiful Masjid in Islamabad, Pakistan</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/slider/02.jpg" class="d-block w-100" height="750px" alt="Evening">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>A Beautiful Evening</h5>
+                    <p>I love Nature</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/slider/03.jpg" class="d-block w-100" height="750px" alt="Jaz Banda">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Jaz Banda, Pakistan</h5>
+                    <p>I love Mountains</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!--Carousel End-->
+    <hr>
+    <h1 style="text-align: center;">My Friends</h1>
+    <br>
+    <!--Friends Card Start-->
+    <div class="owl-carousel" style="margin-left: 10pt;">
+        <div class="col">
+            <div class="card border-secondary mb-3" style="max-width: 25rem;">
+                <img src="images/friends/daniyal.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Daniyal Ahmad</h5>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Friends since 4 Years</small>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card border-secondary mb-3" style="max-width: 25rem;">
+                <img src="images/friends/ali.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Ali Asad</h5>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Friends since 20 Years</small>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card border-secondary mb-3" style="max-width: 25rem;">
+                <img src="images/friends/zahid.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Zahid Maqsood</h5>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Friends since 4 Years</small>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card border-secondary mb-3" style="max-width: 25rem;">
+                <img src="images/friends/sohaib.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Sohaib Salman</h5>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Friends since 4 Years</small>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card border-secondary mb-3" style="max-width: 25rem;">
+                <img src="images/friends/hassaan.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Hassaan Tariq</h5>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Friends since 4 Years</small>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Friends Card End-->
+
+
+
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: false,
+            margin: 12,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 4
+                }
+            }
+        })
+    </script>
+
+    <section class="about">
+        <hr>
+        <h1 style="text-align: center;">About Me</h1>
+        <br>
+        <p>
+            Hi, I am Muhammad Arslan Yousaf, a 22 years old Pakistani citizen. I am a student of Software Engineering at
+            PUCIT, Lahore, Pakistan. I love to program. I’m great at knowing the right algorithm for a problem. Algorithms problems are to me like sudoku is to my
+            grandmother.
+
+            I have taken many full-stack Web development courses.I have learnt .NET, PHP, React.js, MySQL, and
+            sever-side technologies. In my free time I develop websites for clients ranging from small business to large content
+            marketing startups.
+
+            I love working with people to do things bigger than I could accomplish alone. I’m motivated by big problems.
+            I enjoy everything that I do. I am always ready to face challenges and get along with people very well. I
+            believe in vision and action. I learn from my mistakes. I am always ready to take any challenge.</p>
+    </section>
+
+</body>
+
+</html>
