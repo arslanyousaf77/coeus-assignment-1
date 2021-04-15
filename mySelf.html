@@ -13,14 +13,9 @@
     <script src="js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="libs/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="libs/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/myPage.css">
     <script src="libs/jquery/jquery-3.6.0.min.js"></script>
     <script src="libs/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
-
-    <style>
-        .about {
-            padding: 25px;
-        }
-    </style>
 </head>
 
 <body>
@@ -99,7 +94,7 @@
     <h1 style="text-align: center;">My Friends</h1>
     <br>
     <!--Friends Card Start-->
-    <div class="owl-carousel" style="margin-left: 10pt;">
+    <div class="owl-carousel " style="margin-left: 10pt;">
         <div class="col">
             <div class="card border-secondary mb-3" style="max-width: 25rem;">
                 <img src="images/friends/daniyal.jpg" class="card-img-top" alt="...">
@@ -158,27 +153,6 @@
     </div>
     <!--Friends Card End-->
 
-
-
-    <script>
-        $('.owl-carousel').owlCarousel({
-            loop: false,
-            margin: 12,
-            nav: true,
-            responsive: {
-                0: {
-                    items: 1
-                },
-                600: {
-                    items: 2
-                },
-                1000: {
-                    items: 4
-                }
-            }
-        })
-    </script>
-
     <section class="about">
         <hr>
         <h1 style="text-align: center;">About Me</h1>
@@ -200,5 +174,7 @@
     </section>
 
 </body>
-
+<footer>
+    <script src="js/myPage.js"></script>
+</footer>
 </html>
